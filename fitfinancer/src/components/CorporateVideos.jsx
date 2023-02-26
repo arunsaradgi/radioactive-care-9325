@@ -1,4 +1,5 @@
 import Navbar from "./navbar";
+import Footer from "./Footer";
 
 export default function corporatevideos() {
   return (
@@ -58,6 +59,7 @@ export default function corporatevideos() {
           src="https://www.youtube.com/embed/tgbNymZ7vqY"
         ></iframe>
       </div>
+      <Footer />
     </div>
   );
 }
